@@ -25,6 +25,7 @@ The associated JSON Web Algorithms (JWA) [RFC 7518](https://tools.ietf.org/html/
 > A keyed hash [R2104] that can be based on any iterated cryptographic hash (e.g., MD5 or SHA-1), so that the cryptographic strength of HMAC depends on the properties of the selected cryptographic hash.
 
 From [Wikipedia](https://en.wikipedia.org/wiki/Message_authentication_code)
+
 > In cryptography, a message authentication code (MAC) is a short piece of information used to authenticate a message—in other words, to confirm that the message came from the stated sender (its authenticity) and has not been changed in transit (its integrity).
 
 HMAC SHA-256 is a keyed Hash Message Authentication Code (HMAC) based on the SHA-256 algorithm. The HMAC is used in JWT to form a Json Web Signature (JWS) [RFC 7515](https://tools.ietf.org/html/rfc7515) to provide message integrity for a JWT token. It should be noted that the RFC only refers to message integrity and NOT message authenticity.
